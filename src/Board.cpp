@@ -67,7 +67,7 @@ namespace chess{
         return nullptr;
     }
     void Board:: movePiece(const Position& from,const Position& to){
-        if(!from.isValid() || to.isValid()){
+        if(!from.isValid() || !to.isValid()){
             return ;
         }
         m_grid[to.row][to.col]=std::move(m_grid[from.row][from.col]);

@@ -87,5 +87,5 @@ void NotationParser::loadGame(Game& game, const std::string& filepath) {
 
     inFile.close();
     std::cout << "[Sistem] Oyun basariyla yuklendi! Toplam hamle: " << game.getMoveHistory().size() << std::endl;
-}
+ }
 }
