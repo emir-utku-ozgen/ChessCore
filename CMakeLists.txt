@@ -12,4 +12,5 @@ add_executable(chess_core
     src/Board.cpp
     src/Move.cpp
     src/Game.cpp
+    src/NotationParser.cpp
 )
