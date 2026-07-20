@@ -17,5 +17,6 @@ namespace chess{
         std::unique_ptr<Piece> removePieceAt(const Position& pos);
         void movePiece(const Position& from,const Position& to);
         void print() const;
+        void clear();
     };
 }

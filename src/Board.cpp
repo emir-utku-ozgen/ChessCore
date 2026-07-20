@@ -88,5 +88,13 @@ namespace chess{
     }
         std::cout << "    a   b   c   d   e   f   g   h\n\n";
     }
+    void Board::clear(){
+        int i,j;
+        for(i=0;i<8;++i){
+            for(j=0;j<8;++j){
+                m_grid[i][j]=nullptr;
+            }
+        }
+    }
 
 }
